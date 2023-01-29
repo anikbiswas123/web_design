@@ -1,0 +1,26 @@
+@import 'style.css';
+@import 'nav.css';
+@import 'footer.css';
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'robbot',''sans-serif;
+}
+.four-0-four-img{
+    display: block;
+    margin: 70px auto;
+}
+.four-0-four-msg{
+   text-align: center;
+   text-transform: capitalize;
+   color: #383838;
+}
+.four-0-four-msg a{
+    color: #383838;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 700;
+}

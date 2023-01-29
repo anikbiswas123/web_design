@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card desgin of html && css</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+     <!-- <div class="row">
+        <div class="column">
+            <div class="card">
+                <img src="img/team1.jpg" alt="" id="" style="width:100% ;">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="img/team2.jpg" alt="" id="" style="width:100% ;">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="card">
+                <img src="img/team3.jpg" alt="" id="" style="width:100% ;">
+                <div class="container">
+                    <h2>Jane Doe</h2>
+                    <p class="title">CEO & Founder</p>
+                     <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                    <p>example@example.com</p>
+                    <p><button class="button">Contact</button></p>
+                </div>
+            </div>
+        </div>
+         <div class="row">
+            <div class="column">
+              <div class="card">
+                <img src="img/team1.jpg" alt="Jane" style="width:100%">
+                <div class="container">
+                  <h2>Jane Doe</h2>
+                  <p class="title">CEO & Founder</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+           
+             <div class="column">
+              <div class="card">
+                <div class="container">
+                  <h2>Mike Ross</h2>
+                  <p class="title">Art Director</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <img src="img/team3.jpg" alt="John" style="width:100%">
+                <div class="container">
+                  <h2>John Doe</h2>
+                  <p class="title">Designer</p>
+                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                  <p>example@example.com</p>
+                  <p><button class="button">Contact</button></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+    </div>  -->
+
+    <!-- <p>Button effect of</p>
+
+    <button type="button" class="button">click me</button> -->
+
+    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum
+         interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula 
+            venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus 
+            vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at 
+            libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis.
+             Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+     <button onclick="myFunction()" id="myBtn">Read more</button> -->
+
+     <button type="button" class="btn" onclick="document.getElementById('formbtn').style.display='block'">sign UP</button>
+     
+     <div id="container1">
+     <form id="formbtn">
+     <div class="container">
+        <h1>Sign Up</h1>
+       <p>Please fill in this form to create an account.</p>
+       <hr>
+   
+        <label for="useName">userName</label>
+        <input type="text" placeholder="@userName" id="" name="useName">
+        <label for="Email">Email</label>
+        <input type="email" placeholder="Enter Email" id="" name="Email">
+        <label for="psw">password</label>
+        <input type="password" placeholder="password" name="psw" id="">
+        <label for="re-psw">Retype password</label>
+        <input type="password" placeholder="Retype password" name="re-psw" id="">
+        <label>
+            <input type="checkbox" name="" id="" style="margin-bottom:15px;"> Remember me.
+        </label>
+        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+        <div class="clearfix">
+            <button type="button" class="cancelbtn">cancel</button>
+            <button type="button" class="signupbtn">Sign up</button>
+        </div>
+    
+     </div>
+    </form>
+
+</div>
+
+     <script>
+
+     // Get the modal
+var modal = document.getElementById('container1');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+//  function myFunction() {
+//   var dots = document.getElementById("dots");
+//   var moreText = document.getElementById("more");
+//   var btnText = document.getElementById("myBtn");
+
+//   if (dots.style.display === "none") {
+//     dots.style.display = "inline";
+//     btnText.innerHTML = "Read more";
+//     moreText.style.display = "none";
+//   } else {
+//     dots.style.display = "none";
+//     btnText.innerHTML = "Read less";
+//     moreText.style.display = "inline";
+//   }
+// }
+
+     </script>
+
+               
+</body>
+</html>

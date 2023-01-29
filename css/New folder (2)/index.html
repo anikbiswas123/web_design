@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <br>
+    <br>
+    <!-- <a href="#">link action</a> -->
+
+    <!-- <a href="#">LINK HERE</a> -->
+
+    <!-- <a href="#">link active</a> -->
+
+    <!-----------------this is table desgin-------------------->
+<!-- 
+    <table id="customers">
+        <caption>Bussiness information</caption>
+        <thead>
+            <tr class="fristrow">
+                <th>Company Name</th>
+                <th>contact</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alfreds Futterkiste</td>
+                <td>Maria Anders</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Berglunds snabbköp</td>
+                <td>Christina Berglund</td>
+                <td>Mexico</td>
+            </tr>
+            <tr>
+                <td>Ernst Handel</td>
+                <td>Roland Mendel</td>
+                <td>Austria</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Königlich Essen</td>
+                <td>Philip Cramer </td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+            </tr>
+        </tbody>
+    </table> -->
+
+    <!------------click event display ------------->
+    <!-- <section id="maincontianer">
+
+        
+    <button  onclick="messagesshow()" id="btn">click to show panel</button>
+    <hr>
+
+    <div class="container" id="container">
+
+        <p>This panel contains a element, which is hidden by default (display: none).</p>
+        <p>It is styled with CSS, and we use JavaScript to show it (change it to (display: block).</p>    
+
+    </div>
+
+    </section>
+
+<script>
+
+    function messagesshow(){
+        document.getElementById('container').style.display="inline";
+    }
+</script> -->
+
+
+<!-------------panel onclick event--------------->
+
+<!-- <section class="maincontainer">
+
+    <button type="button" onclick="myfunction()"  class="btn">click to btn show messages</button>
+    <hr>
+    <div class="conatainer" id="container">
+        <p>This panel contains a element, which is hidden by default (display: none).</p>
+        <p>It is styled with CSS, and we use JavaScript to show it (change it to (display: block).</p>  
+    </div>
+
+</section>
+
+<script>
+    function myfunction(){
+        document.getElementById('container').style.display="block";
+    }
+</script> -->
+
+<!-- <table>
+    <tr>
+        <div class="col-3" id="one">
+            <h2>display:none</h2>
+            <img src="img/img_5terre.jpg" >
+
+            <button type="button" class="btn" onclick="messagesnone()">Remove</button>
+
+        </div>
+        <div class="col-3" id="two">
+            <h2>visibility:hidden</h2>
+            <img src="img/img_forest.jpg">
+            <button type="button" class="btn" onclick="meaaageshidden()">Hide</button>
+        </div>
+        <div class="col-3">
+            <h2>Reset All photo</h2>
+            <img src="img/img_lights.jpg">
+            <button type="button" class="btn" onclick="meaaageallshow()">Reset All</button>
+        </div>
+    </tr>
+</table>
+
+<script>
+    function messagesnone(){
+        document.getElementById('one').style.display="none";
+    }
+    function meaaageshidden(){
+        document.getElementById('two').style.visibility="hidden";
+    }
+    function meaaageallshow(){
+        document.getElementById('one').style.display="block";
+        document.getElementById('two').style.visibility="visible";
+    }
+</script> -->
+
+<table>
+    <tr>
+        <div class="col-3" id="Remove">
+            <h2>REMOVE</h2>
+            <img src="img/img_5terre.jpg" alt="">
+            <button type="button" onclick="messagesRemove()" class="btn">REMOVE</button>
+        </div>
+        <div class="col-3" id="Hide">
+            <h2>HIDE</h2>
+            <img src="img/img_forest.jpg" alt="">
+            <button type="button" onclick="messagesHide()" class="btn">HIDE</button>
+        </div>
+        <div class="col-3">
+            <h2>RESET</h2>
+            <img src="img/img_lights.jpg" alt="">
+            <button type="button" onclick="messagesshow()" class="btn">RESET ALL</button>
+        </div>
+    </tr>
+</table>
+
+<script>
+    function messagesRemove(){
+        document.getElementById('Remove').style.display="none";
+    }
+    function messagesHide(){
+        document.getElementById('Hide').style.visibility="hidden";
+    }
+    function messagesshow(){
+        document.getElementById('Remove').style.display="block";
+        document.getElementById('Hide').style.visibility="visible";
+    }
+</script>
+
+
+
+</body>
+</html>

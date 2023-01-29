@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my frist web site</title>
+</head>
+<body>
+    <h2>Remove the Iframe Border</h2>
+<p>To remove the default border of the iframe, use CSS:</p>
+
+<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+
+
+<h2>HTML Iframes</h2>
+<p>You can use the height and width attributes to specify the size of the iframe:</p>
+
+<iframe src="html1/index.html" height="500" width="500" title="Iframe Example">  </iframe>
+
+<iframe src="https://www.w3schools.com"></iframe>
+<div>
+    <button onclick="myfunction()">clike me</button>
+
+    <p id="demo"></p>
+
+    <p id="sumi"></p>
+    
+</div>
+
+
+<script>
+    function myfunction(){
+
+        var x=document.getElementById('demo').innerHTML=Date();
+
+    }
+
+    document.getElementById('sumi').innerHTML="hello ! javascript";
+    document.getElementById('sumi').style.color="blue";
+    document.getElementById('sumi').style.fontSize="20px";
+</script>
+
+</body>
+</html>

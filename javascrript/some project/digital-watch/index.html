@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital watch</title>
+</head>
+<body>
+    
+    <div class="mywatch">
+        <span class="Hours"></span>
+        <span class="mintues"></span>
+        <span class="second"></span>
+        <span class="mydate"></span>
+    </div>
+
+
+    <!-------javascript link- ------>
+
+    <script>
+
+      function setTime(){
+         
+        let mydate=new Date();
+        var hr,min,sec,m;
+         min=(mydate.getMinutes()<10) ? "0"+ mydate.getMinutes() : mydate.getMinutes(),
+         sec=(mydate.getSeconds()<10)? "0"+mydate.getSeconds(): mydate.getSeconds(),
+         m=(mydate.getHours()>12)? "PM":"AM";
+
+         if(mydate.getHours()== 0)
+         {
+            hr=12;
+         }
+         else if(mydate.getHours()>12){
+            hr=mydate.getHours()-12;
+         }
+         else{
+            hr=mydate.getHours();
+         }
+
+         var currentTime=hr+":"+min+":"+sec+":";
+
+         document.getElementsByClassName("Hours")[0].innerHTML=currentTime;
+         document.getElementsByClassName("mintues")[0].innerHTML=m;
+
+        var myday=["sun","mon","tuse","web","thuse","fri","sat"],
+         mymonth=["jan","feb","mar","April","may","june","july","Aug","sept","oct","nov","DEC"];
+         day=mydate.getDate();
+
+         var curretdate=myday[mydate.getDay()]+","+mymonth[mydate.getMonth()]+day;
+         document.getElementsByClassName("mydate")[0].innerHTML=curretdate;
+      }
+      
+      setTime();
+
+      setInterval(function(){
+        setTime();
+      },1000)
+ 
+
+    </script>
+
+</body>
+</html>

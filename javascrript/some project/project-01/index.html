@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--------css link-------->
+    <link rel="stylesheet" href="css/style.css">
+    <!--------font-awasome cdn link--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <!-- <h2>Search Menu</h2>
+    <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+    
+    <div class="row">
+      <div class="left" style="background-color:#bbb;">
+        <h2>Menu</h2>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+        <ul id="myMenu">
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">PHP</a></li>
+          <li><a href="#">Python</a></li>
+          <li><a href="#">jQuery</a></li>
+          <li><a href="#">SQL</a></li>
+          <li><a href="#">Bootstrap</a></li>
+          <li><a href="#">Node.js</a></li>
+        </ul>
+      </div>
+      
+      <div class="right" style="background-color:#ddd;">
+        <h2>Page Content</h2>
+        <p>Start to type for a specific category inside the search bar to "filter" the search options.</p>
+        <p>Some text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+        <p>Some other text..Some text..Some text..Some text..Some text..Some text..Some text..Some text..</p>
+        <p>Some text..</p>
+      </div>
+    </div>
+
+    <-----side bar---------->
+
+    <!-- <div class="topnavbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#cotact">contact</a>
+         <div class="search-contaier">
+            <form>
+                <input type="text" placeholder="searching any......" name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+         </div>
+    </div>
+
+    <hr>
+    <br>
+    <br> -->
+
+    <!---------collapse menu bar---------->
+
+    <!-- <div id="mysidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#Home">Home</a>
+        <a href="#services">servies</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">cotact</a>
+    </div>
+
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+        <h2>Collapsed Sidebar</h2>
+        <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p>
+    </div>
+     --> 
+
+     <h2>modal form Login</h2>
+
+     <button type="button" onclick="document.getElementById('id01').style.display='block'" style="width:auto ;">Login</button>
+
+     <div id="id01" class="modal">
+        <form class="modal-cotent animate" >
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+              </div>
+            <div class="container">
+                <label for="userName">UserName</label>
+                <input type="text" placeholder="@username" name="userName" required>
+                <label for="psw">password</label>
+                <input type="password"  placeholder="password" name="psw" required>
+                <button type="submit">submite</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="Remaber me">Remember me
+                </label>
+                
+                <div class="container" style="background-color:#f1f1f1">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                  </div>
+
+            </div>
+        </form>
+     </div>
+    
+    <!--------javascript linking  ---------->
+    <script src="js/scripty.js"></script>
+</body>
+</html>

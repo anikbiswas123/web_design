@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header part */
+.header{
+    background-color: #0B9B9B;
+    padding: 20px;
+   
+}
+ .pp{
+    text-align: center;
+    color: #fff;
+}

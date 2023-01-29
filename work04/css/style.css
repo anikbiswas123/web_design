@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Uchen', serif;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navbar{
+    display: flex;
+    justify-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color:#555;
+}
+/* another div row*/
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px  0;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    padding: 25px 0;
+   font-family: 'Poppins', sans-serif;;
+
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition:  0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: linear-gradient(#fff, #ffd6d6);
+}
+.header .row{
+    margin-top: 70px;
+}
+/*categories  sectiob*/
+
+.categories{
+    margin: 70px 0;
+}
+.cata-title{
+    text-align: center;
+    font-size: 24px;
+    padding: 15px;
+    letter-spacing: 4px;
+}
+hr{
+    line-height: 5px;
+    color: #555;
+    margin: auto;
+    width: 300px;
+   margin-top: -10px;
+}
+.hr-line{
+    width:270px ;
+}
+.col-3{
+    flex-basis: 30px;
+    min-width: 250px;
+    
+    margin: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px ;
+    padding-right: 25px;
+}
+/* features product*/
+
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+.col-4 img{
+    width: 100%;
+}
+
+.title-text{
+   text-align: center;
+   font-size: 24px;
+   position: relative;
+   margin: 0 auto 80px;
+   line-height: 60px;
+   letter-spacing: 4px;
+   color: #555;
+}
+.title-text::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 4px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.col-4 h3{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.col-4 .ratting{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+#offers{
+    background: linear-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+.col-2  small{
+    color: #555;
+}
+.btn1{
+    border-radius: 50px;
+}
+
+/* testmonial section*/
+
+#testmonial{
+    padding-top: 50px;
+}
+#testmonial .col-3{
+   text-align: center;
+   padding: 40px 20px;
+   box-shadow: 0 0 20px 0px rgb(0,0,0,0.1);
+   cursor: pointer;
+   transition:transfrom 0.5s;
+}
+#testmonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+#testmonial .col-3  p{
+    font-size: 9px;
+    text-align: center;
+}
+#testmonial .col-3 .ratting .fa{
+    color: #ff523b;
+}
+.twitter {
+  color: blue;
+}
+ .col-3:hover{
+    transform:translateY(-10px);
+}
+.col-3 p{
+    font-size: 12px;
+    margin: 12px 0;
+    color: #777;
+}
+.col-3 h3{
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+/* Brands section */
+
+#Brands{
+    margin: 100px auto;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/* footer  section */
+
+#footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+#footer p{
+    color: #8a8a8a;
+}
+#footer h3{
+    color: #fff;
+}
+.footer-col-1 .footer-col-2 .footer-col-3 .footer-col-4 .footer-col-5{
+    min-height: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 25px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: #555;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+
+.copywrite{
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.copywrite span{
+    color: #fff;
+}
+.manu-icon{
+    width: 28px;
+    height:28px ;
+    margin-left: 20px;
+    display: none;
+}
+
+/* media queria for manu */
+
+@media only screen and (max-width:800px) {
+    nav ul{
+        position: absolute;
+        top: 90px;
+        right: 0;
+        background: #999;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .nav-logo img{
+        width: 120px;
+    } 
+   
+    .manu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+/* all product pages */
+
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+ select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+ }
+ select:focus{
+    outline: none;
+ }
+ .page-btn{
+    margin: 0 auto 80px;
+ }
+ .page-btn span{
+    display: inline-block;
+    border: 1px solid #ff523b;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 3px;
+ }
+ .page-btn span:hover{
+    background: #ff523b;
+    color: #fff;
+ }
+
+
+@media only screen and(max-width:600)
+{
+    .row
+    {
+        text-align: center;
+    }
+    .col-2, .col-3,.col-4{
+
+        flex-basis: 100%;
+
+    }
+    
+}

@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header part */
+.header{
+    background-color: #0B9B9B;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+    width: 100%;
+    overflow: hidden;
+   
+}
+.header p{
+    text-align: center;
+    color: #fff;
+}
+.header span:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+ /* Header part */
+
+ /* navigation */
+ .navigation{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+ }
+ .card{
+   margin-left: 100px;
+ }
+ .col-20{
+   width: 20%;
+   float: left;
+
+}
+.col-50{
+    
+   width: 40%;
+   float: left;
+   margin-left: 80px;
+  
+}
+ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+ul li{
+   float: left;
+}
+ul li a{
+   display: block;
+   text-decoration: none;
+   padding: 45px 35px;
+}
+.cont{
+   left: 20px;
+}
+.aa{
+   display: block;
+   text-decoration: none;
+   padding-top: 40px;
+   padding-left: 20px;
+    
+}
+.btn-demo span{
+   border: 1px solid red;
+   padding: 12px 16px;
+   border-radius: 5px;
+   color: red;
+}
+.btn-demo span:hover{
+   border: none;
+   padding: 12px 16px;
+   border-radius: 5px;
+   color:white;
+   background-color: rgb(197, 111, 111);
+   transition: 0.5s;
+}
+#dropdown{
+   position: relative;
+   display: inline-block;
+  
+}
+.dropdown-content{
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 300px;
+   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   padding: 12px 16px;
+   z-index: 1;
+}
+.fa-file-text-o{
+   color: #0B9B9B;
+   padding: 10px;
+}
+.HP span{
+   color: #0B9B9B;
+   letter-spacing: 1px;
+   font-size: 15px;
+}
+ p{
+   padding-left: 10px;
+   font-size: 15px;
+   padding-top: 15px;
+   color: black;
+   font-style: normal;
+
+}
+.fa-long-arrow-right{
+   float: right;
+   padding-right: 10px;
+   color: rgb(36, 32, 32);
+}
+#dropdown:hover .dropdown-content {
+   display: block;
+ }
+
+ h5{
+   padding-top: 15px;
+ }
+ 
+.frist-div{
+   padding: 15px;
+   background-color: #FFFFFF;
+   border-radius: 5px;
+}
+.frist-div h3{
+   padding-top: 15px;
+}
+
+/* frist main container section */
+
+.container-1{
+   width: 100%;
+   background-color: #f9f9f9;
+}
+
+.card-con{
+   padding-top: 50px;
+   width: 50%;
+   padding-bottom: 20px;
+  
+
+}
+.frist-text{
+   font-size: 15px;
+   color:#6e5050 ;
+   letter-spacing: 2px;
+   padding-bottom: 20px;
+   
+}
+.frist-text span{
+   
+   color: #798080;
+   opacity: 1;
+   font-style: normal;
+}
+.text-h2{
+   font-size: 50px;
+   letter-spacing: 1px;
+   font-style: normal;
+   text-align: justify;
+}
+.Easy{
+   font-size: 18px;
+   padding-top: 18px;
+   letter-spacing: 1px;
+   padding-bottom: 20px;
+   font-family: Monospace;
+}
+.btn{
+   padding: 20px 60px;
+   border :1px solid red;
+   border-radius: 5px;
+   background-color: #ff4d4d;
+   text-transform: uppercase;
+   font-size: 25px;
+   color: #fff;
+   
+}
+.btn-arrow{
+   padding-left: 20px;
+   color: #f9f9f9;
+   font-style: normal;
+   font-weight: normal;
+}
+.btn:hover{
+   padding: 23px 63px;
+   border: none;
+   background-color: #ff9999;
+   color: #f9f9f9;
+   padding-left: 23px;
+   transition: 0.5s;
+}
+p a{
+   text-decoration: none;
+   color:  #514646;
+   letter-spacing: 1px;
+}
+p a:hover{
+   text-decoration:underline;
+
+}
+
+/* second container */
+
+.container-2{
+   margin-top: 20px;
+   overflow: hidden;
+}
+
+.left-content{
+   width: 40%;
+   float: left;
+}
+.leftcontent{
+   background-color: #ffe6e6;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   border-radius: 5px;
+}
+
+
+.h2head{
+
+   padding-top: 25px;
+   padding-left: 25px;
+   letter-spacing: 2px;
+   color: black;
+   font-size: 30px;
+}
+.p-an{
+   padding-top: 25px;
+   padding-left: 25px;
+   line-height: 20px;
+   font-size: 18px;
+   padding-bottom: 20px;
+}
+.btn1{
+
+   margin-left: 40px;
+   padding: 12px 40px;
+   font-size: 25px;
+   text-transform: uppercase;
+   border: 1px solid  green;
+}
+
+.btn1:hover{
+   border: none;
+   background-color: violet;
+   color: white;
+   border-radius: 5px;
+   
+}
+
+.Right-content{
+   width: 40%;
+   float: left;
+}
+
+
+
